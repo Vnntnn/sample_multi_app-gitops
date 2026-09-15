@@ -6,3 +6,4 @@ metadata:
 data:
   environment: dev
   managed-by: argocd
+  message: "Update from Git"
