@@ -4,6 +4,7 @@ metadata:
   name: gitops-demo
   namespace: dev
 data:
-  environment: dev
-  managed-by: argocd
-  message: "Automatic Sync from Git"
+  MONGO_HOST: mongodb
+  MONGO_PORT: "27017"
+  APP_ENV: dev
+  APP_VERSION: v1.0
