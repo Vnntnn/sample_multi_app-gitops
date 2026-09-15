@@ -28,7 +28,7 @@ spec:
 
           envFrom:
             - configMapRef:
-                name: gitops-demo
+                name: sample-multi-app-config
 
           resources:
             requests:
