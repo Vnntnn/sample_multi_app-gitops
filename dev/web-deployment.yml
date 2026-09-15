@@ -28,7 +28,7 @@ spec:
 
           envFrom:
             - configMapRef:
-                name: sample-multi-app-config
+                name: configmap
 
           resources:
             requests:
